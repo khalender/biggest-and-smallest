@@ -1,11 +1,34 @@
 .centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 input {
-  text-align: center;
+    text-align: center;
+}
+
+.log {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sublog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    width: 450px;
+    background-color: antiquewhite;
+}
+
+.sublog span {
+    width: 150px;
+    margin: auto auto;
+    text-align: center;
 }
